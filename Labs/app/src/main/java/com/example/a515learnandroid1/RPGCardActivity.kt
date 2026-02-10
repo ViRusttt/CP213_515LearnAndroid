@@ -35,14 +35,14 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.a515learnandroid1.ui.theme._515LearnAndroid1Theme
 
-class MainActivity : ComponentActivity() {
+class RPGCardActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 // enableEdgeToEdge()
         setContent {
             RPGCardView(
                 onNextActivity = {
-                    startActivity(Intent(this@MainActivity, ListActivity::class.java))
+                    startActivity(Intent(this@RPGCardActivity, PokedexActivity::class.java))
                 }
             )
         }

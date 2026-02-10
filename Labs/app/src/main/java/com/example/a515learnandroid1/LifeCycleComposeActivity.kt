@@ -24,7 +24,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.a515learnandroid1.ui.theme._515LearnAndroid1Theme
 import org.w3c.dom.Text
 
-class MainActivity2 : ComponentActivity() {
+class LifeCycleComposeActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

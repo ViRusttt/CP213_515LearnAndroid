@@ -39,6 +39,11 @@ class MenuActivity : ComponentActivity() {
                 }) {
                     Text("SharedPreferencesActvity")
                 }
+                Button(onClick = {
+                    startActivity(Intent(this@MenuActivity, GalleryActivity::class.java))
+                }) {
+                    Text("GalleryActivity")
+                }
             }
         }
     }

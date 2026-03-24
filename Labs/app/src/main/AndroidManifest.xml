@@ -4,6 +4,8 @@
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -58,6 +60,11 @@
             android:name=".GalleryActivity"
             android:exported="false"
             android:label="Gallery Activity"
+            android:theme="@style/Theme._515LearnAndroid1" />
+        <activity
+            android:name=".SensorActivity"
+            android:exported="false"
+            android:label="Sensor Activity"
             android:theme="@style/Theme._515LearnAndroid1" />
     </application>
 

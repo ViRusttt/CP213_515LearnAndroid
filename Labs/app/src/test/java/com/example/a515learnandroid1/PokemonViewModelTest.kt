@@ -1,7 +1,7 @@
-package com.example.a509lablearnandroid
+package com.example.a515learnandroid1
 
-import com.example.a509lablearnandroid.utils.PokemonEntry
-import com.example.a509lablearnandroid.utils.PokemonSpecies
+import com.example.a515learnandroid1.Util.PokemonEntry
+import com.example.a515learnandroid1.Util.PokemonSpecies
 import kotlinx.coroutines.flow.MutableStateFlow
 import org.junit.Assert.*
 import org.junit.Test

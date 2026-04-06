@@ -1,6 +1,6 @@
-package com.example.a509lablearnandroid
+package com.example.a515learnandroid1
 
-import com.example.a509lablearnandroid.utils.PokemonNetwork
+import com.example.a515learnandroid1.Util.PokemonNetwork
 import org.junit.Assert.*
 import org.junit.Test
 

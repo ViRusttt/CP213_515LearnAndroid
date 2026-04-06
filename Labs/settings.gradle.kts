@@ -21,4 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "515LearnAndroid1"
 include(":app")
- 

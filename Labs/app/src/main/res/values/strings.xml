@@ -4,4 +4,7 @@
     <string name="title_activity_list">ListActivity</string>
     <string name="title_activity_menu" />
     <string name="title_activity_shared_preferences" />
+    <string name="title_activity_part1_animation">Part1AnimationActivity</string>
+    <string name="title_activity_part2_animation">Part2AnimationActivity</string>
+    <string name="title_activity_part3">Part3Activity</string>
 </resources>

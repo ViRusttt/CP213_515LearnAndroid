@@ -104,6 +104,46 @@ class MenuActivity : ComponentActivity() {
                     Text("Part 8 (Responsive UI)")
                 }
 
+                // 6.6 Part 9: Collapsing Toolbar
+                Button(onClick = {
+                    val options = ActivityOptionsCompat.makeCustomAnimation(
+                        this@MenuActivity, android.R.anim.fade_in, android.R.anim.fade_out
+                    )
+                    startActivity(Intent(this@MenuActivity, Part9Activity::class.java), options.toBundle())
+                }, modifier = Modifier.fillMaxWidth()) {
+                    Text("Part 9 (Collapsing Toolbar)")
+                }
+
+                // 6.7 Part 10: App Widget Concept
+                Button(onClick = {
+                    val options = ActivityOptionsCompat.makeCustomAnimation(
+                        this@MenuActivity, android.R.anim.fade_in, android.R.anim.fade_out
+                    )
+                    startActivity(Intent(this@MenuActivity, Part10Activity::class.java), options.toBundle())
+                }, modifier = Modifier.fillMaxWidth()) {
+                    Text("Part 10 (App Widget Concept)")
+                }
+
+                // 6.8 Part 11: Skeleton Loading
+                Button(onClick = {
+                    val options = ActivityOptionsCompat.makeCustomAnimation(
+                        this@MenuActivity, android.R.anim.fade_in, android.R.anim.fade_out
+                    )
+                    startActivity(Intent(this@MenuActivity, Part11Activity::class.java), options.toBundle())
+                }, modifier = Modifier.fillMaxWidth()) {
+                    Text("Part 11 (Skeleton Loading)")
+                }
+
+                // 6.9 Part 12: Dialog & Bottom Sheet
+                Button(onClick = {
+                    val options = ActivityOptionsCompat.makeCustomAnimation(
+                        this@MenuActivity, android.R.anim.fade_in, android.R.anim.fade_out
+                    )
+                    startActivity(Intent(this@MenuActivity, Part12Activity::class.java), options.toBundle())
+                }, modifier = Modifier.fillMaxWidth()) {
+                    Text("Part 12 (Dialog & BottomSheet)")
+                }
+
                 // 7. Scale Up จากตำแหน่งกึ่งกลาง 
                 Button(onClick = {
                     val options = ActivityOptionsCompat.makeScaleUpAnimation(

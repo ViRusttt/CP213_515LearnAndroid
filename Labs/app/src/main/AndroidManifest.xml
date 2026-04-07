@@ -24,6 +24,26 @@
             android:label="@string/title_activity_part3"
             android:theme="@style/Theme._515LearnAndroid1" />
         <activity
+            android:name=".Part12Activity"
+            android:exported="false"
+            android:label="Part 12 Activity"
+            android:theme="@style/Theme._515LearnAndroid1" />
+        <activity
+            android:name=".Part11Activity"
+            android:exported="false"
+            android:label="Part 11 Activity"
+            android:theme="@style/Theme._515LearnAndroid1" />
+        <activity
+            android:name=".Part10Activity"
+            android:exported="false"
+            android:label="Part 10 Activity"
+            android:theme="@style/Theme._515LearnAndroid1" />
+        <activity
+            android:name=".Part9Activity"
+            android:exported="false"
+            android:label="Part 9 Activity"
+            android:theme="@style/Theme._515LearnAndroid1" />
+        <activity
             android:name=".Part8Activity"
             android:exported="false"
             android:label="Part 8 Activity"
